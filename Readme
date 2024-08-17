@@ -1,0 +1,45 @@
+Study Area: Fezzan Region, Libya
+
+Geographical Location:
+
+The Fezzan region is located in southwestern Libya.
+
+It is a large desert area encompassing parts of the Sahara Desert.
+
+Climate:
+
+- The region experiences a harsh desert climate with extreme temperatures.
+
+- Summers are extremely hot, while winters can be cold at night.
+
+- Precipitation is minimal, leading to arid conditions.
+
+Topography:
+
+- The landscape is dominated by sand dunes, rocky plateaus, and mountains.
+
+- The region includes some oases, which are critical for local agriculture and settlements.
+
+
+
+Significance of the Study:
+
+- Understanding actual evapotranspiration and interception (ETIa) is vital for water resource management.
+
+- ETIa data helps in planning agricultural activities and managing water resources efficiently.
+
+- The study contributes to the broader efforts of monitoring and mitigating the impacts of climate change in arid regions.
+
+
+
+I downloaded the L3-AETI-D files from the WaPOR website and have calculated the seasonal AETI for the four seasons of 2022, by splitting the file name and identifying the months of a specific season and added them to a list, then I summed the pixel value i.e the AETI value from each file in the specific season list and created the seasonal AETI. The following are the seasons and their corresponding months identified in Libiya,
+
+Winter: December, January, February
+
+Spring: March, April, May
+
+Summer: June, July, August
+
+Autumn: September, October, November
+
+I tried to perform zonal statistics for the mean, but Google Colab keeps crashing due to limited RAM
